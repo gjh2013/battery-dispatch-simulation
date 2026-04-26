@@ -13,6 +13,7 @@ and prints the final charge level and balance.
 The market data excel sheet is expected to be in the path `data/market_data.xlsx` relative
 to the project directory.
 ```
+uv sync
 uv run python -m battery_dispatch
 ```
 
